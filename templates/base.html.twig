@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/header.css">
+        {% block stylesheets %}
+        {% endblock %}
+    </head>
+    <body>
+        <header class="desktop__header">
+            <h1 class="desktop__header__title">Menu 1</h1>
+            <h1 class="desktop__header__title">Menu 2</h1>
+            <img class="desktop__header__logo" src="images/logo.jpg" alt="Il est écrit l'épicerie d'Hélène avec un panier en osier contenant une bouteille en verre et des produits en vracs.">
+            <h1 class="desktop__header__title">Menu 3</h1>
+            <h1 class="desktop__header__title">Menu 4</h1>
+        </header>
+        <header class="mobile__header">
+            <img onclick='burger()' class="mobile__header_burgerIcon" src="images/burger_icon.svg" alt="icone du menu">
+            <p class="mobile__header__menu">Menu</p>
+        </header>
+        <nav>
+            <ul id="mobile__menu">
+                <li class="mobile__header__title">Menu 1</li>
+                <li class="mobile__header__title">Menu 2</li>
+                <li class="mobile__header__title">Menu 3</li>
+                <li class="mobile__header__title">Menu 4</li>
+            </ul>
+        </nav>
+        <main>
+        {% block body %}{% endblock %}
+        </main>
+        <script type="text/javascript" src="js/header/burger.js"></script>
+        {% block javascripts %}
+
+        {% endblock %}
+    </body>
+</html>

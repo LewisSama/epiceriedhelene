@@ -1,0 +1,74 @@
+/* Disable desktop navbar*/
+.desktop__header {
+    display: none;
+}
+
+header {
+    z-index: 1;
+    font-family: "Century Schoolbook L", sans-serif;
+}
+
+nav {
+    z-index: 2;
+}
+
+main {
+    position: relative;
+    top: 10vh;
+}
+
+.mobile__header {
+    position: fixed;
+    background-color: darkcyan;
+    display: flex;
+    width: 100%;
+    font-size: 1.5vw;
+    text-align: center;
+    box-shadow: 0px 1px 2px black;
+    height: 9vh;
+    line-height: 7vw;
+    top: 0;
+}
+
+.mobile__header_burgerIcon {
+    width: 10vw;
+    line-height: 9vw;
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+.mobile__header__menu {
+    font-size: 5vw;
+    margin-left: 1vw;
+    background-color: darkcyan;
+}
+
+.mobile__header__title {
+    position: relative;
+    padding: 2vw;
+    border-bottom: 1px solid black;
+}
+
+#mobile__menu {
+    display: none;
+    background-color: darkcyan;
+    margin-top: 0;
+    top: 9vh;
+    position: fixed;
+    list-style: none;
+    padding-inline-start: 7vw;
+    padding-right: 6vw;
+    z-index: 2;
+    box-shadow: 1px 1.5px 1.5px black;
+
+}
+
+.mobile__header__logo {
+    height: 8vh;
+    width: 12vw;
+    margin-left: 35vw;
+}
+
+@media screen and (min-width: 640px) {
+
+}

@@ -1,0 +1,15 @@
+.cart__table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2vh;
+}
+
+.cart__table__td {
+    border: 1px solid black;
+    margin: 0;
+}
+
+.cart__table__th {
+
+}

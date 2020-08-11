@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Limerence";
+    src: url("/fonts/Limerence/OTF/Limerence.otf") format("otf");
+    src: url("/fonts/Limerence/TTF/Limerence.ttf") format("ttf");
+    src: url("/fonts/Limerence/WOFF/Limerence.woff") format("woff");
+    src: url("/fonts/Limerence/WOFF/Limerence.woff2") format("woff");
+}
+
+@font-face {
+    font-family: "Limerence-Thin";
+    src: url("/fonts/Limerence/OTF/Limerence-Thin.otf") format("otf");
+    src: url("/fonts/Limerence/TTF/Limerence-Thin.ttf") format("ttf");
+    src: url("/fonts/Limerence/WOFF/Limerence-Thin.woff") format("woff");
+    src: url("/fonts/Limerence/WOFF/Limerence-Thin.woff2") format("woff");
+}

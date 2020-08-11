@@ -1,0 +1,55 @@
+.home__menu {
+    border: 2px solid #834C08;
+    border-radius: 10vh;
+    text-align: center;
+    line-height: 14vh;
+    height: 14vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    box-shadow: 1px 1px 3px black;
+    font-family: "Century Schoolbook L", sans-serif;
+}
+
+.mobile__home__logo {
+    height: 25vw;
+    width: 25vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 4vh;
+}
+
+.home__menus {
+    margin-top: 4vh;
+    font-size: 3vh;
+}
+
+.home_moreInfo {
+    margin: 2vh auto 0;
+    text-align: center;
+}
+
+.home__downArrow {
+    width: 10vw;
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__infoBout__Titre {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.home__infoBout__text {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+
+}
+
+main, body {
+    height: 100%;
+    background-color: #FFFBF6;
+    font-family: "Century Schoolbook L", sans-serif;
+}

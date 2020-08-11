@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L'épicerie d'Hélène{% endblock %}
+{% block stylesheets %}<link rel="stylesheet" href="css/home.css">{% endblock %}
+
+{% block body %}
+
+    <img class="mobile__home__logo" src="images/logo.jpg" alt="Il est écrit l'épicerie d'Hélène avec un panier en osier contenant une bouteille en verre et des produits en vracs.">
+
+    <div class="home__menus">
+        <p class="home__menu"><a href="{{ path('shop_index') }}">Je m'inscris pour commander</a></p>
+        <p class="home__menu">Je me connecte pour commander</p>
+        <p class="home__menu">Je veux juste voir les produits</p>
+    </div>
+
+    <p class="home_moreInfo">Plus d'information</p>
+    <img src="images/down-arrow.svg" alt="flèche indiquant le bas" class="home__downArrow">
+
+    <h2 class="home__infoBout__Titre">Infos boutique</h2>
+    <div class="home__infoBout__text">
+        <p>Horaires d'ouverture:</p>
+        <p>Le lundi, mercredi, vendredi:</p>
+        <p>10h - 13h30 et  15h30 - 19h</p>
+        <p>Le samedi:</p>
+        <p>9h30 - 13h</p>
+        <p>Téléphone:</p>
+        <p>02.37.49.24.30</p>
+        <p>Adresse mail:</p>
+        <p>lepiceriedhelene@gmail.com</p>
+    </div>
+
+
+    <h2 class="home__infoBout__Titre">Ta description</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius nisi ac elit posuere facilisis. Aliquam pretium, justo vitae porttitor blandit, tortor sem molestie urna, vitae lacinia dolor diam eu diam. In a urna eu nibh.</p>
+
+{% endblock %}

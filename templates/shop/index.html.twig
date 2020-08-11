@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L'épicerie d'Hélène - Boutique{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/shop.css">
+{% endblock %}
+
+
+{% block body %}
+
+    <label class="shop__mobileSelect__label" for="category-select">Trier par type de produit:</label>
+
+    <select class="shop__mobileSelect" name="category" id="category-select">
+        <option value="all">Tout les produits</option>
+        <option value="vrac">Produit en vrac</option>
+        <option value="tisane">Tisane</option>
+        <option value="jus">Jus</option>
+        <option value="alcool">Alcool</option>
+        <option value="herbes">Herbes aromatiques</option>
+        <option value="confiture-miel">Confitures et miel</option>
+        <option value="huile-vinaigre">Huiles et vinaigres</option>
+    </select>
+
+    {% for i in 0..20 %}
+        <div class="shop__card">
+            <img class="shop__card__img" src="https://via.placeholder.com/150">
+            <h2 class="shop__card__title">Nom du produit</h2>
+            <p class="shop__card__price">1€ / kg</p>
+            <div class="shop__card__inputs">
+                <input class="shop__card__input" type="number">
+                <button type="button" class="shop__card__submit" name="submit__product">Valider</button>
+            </div>
+        </div>
+    {% endfor %}
+    <div class="shop__cart">
+        <p class="shop__totalPrice">Total: XX€</p>
+        <a class="shop__cartLink" href="{{ path('cart_index') }}">Voir mon panier</a>
+    </div>
+{% endblock %}

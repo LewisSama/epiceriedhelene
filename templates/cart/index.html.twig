@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L'épicerie d'Hélène - Boutique{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cart.css">
+{% endblock %}
+
+{% block body %}
+    <table class="cart__table">
+        <thead>
+            <tr>
+                <th class="cart__table__th">Article</th>
+                <th class="cart__table__th">Quantité</th>
+                <th class="cart__table__th">Prix unitaire</th>
+                <th class="cart__table__th">Sous-total</th>
+            </tr>
+        </thead>
+    {% for i in 0..5 %}
+        <tr>
+            <td class="cart__table__td">nom du produit</td>
+            <td class="cart__table__td">x kg</td>
+            <td class="cart__table__td">3,50€</td>
+            <td class="cart__table__td">x,50€</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
