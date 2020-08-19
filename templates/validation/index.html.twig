@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L'épicerie d'Hélène - Boutique{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/validation.css">
+
+{% endblock %}
+
+{% block body %}
+    <section class="validation__card">
+        <h2>Je récupère en magasin</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius nisi ac elit posuere facilisis. Aliquam pretium, justo vitae porttitor blandit
+        </p>
+        <button class="validation__validButton">Valider</button>
+    </section>
+    <section class="validation__card">
+        <h2>Je suis livré</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius nisi ac elit posuere facilisis. Aliquam pretium, justo vitae porttitor blandit
+        </p>
+        <button class="validation__validButton">Valider</button>
+    </section>
+    <button class="validation__cancelButton">Retour</button>
+{% endblock %}

@@ -1,0 +1,9 @@
+.confirmation__card {
+    border: 1px solid black;
+    margin: 2vw;
+    text-align: center;
+}
+.confirmation__validButton {
+    background-color: darkseagreen;
+    margin-bottom: 2vh;
+}

@@ -1,0 +1,14 @@
+.validation__card {
+    border: 1px solid black;
+    margin: 2vw;
+    text-align: center;
+}
+.validation__validButton {
+    background-color: darkseagreen;
+    margin-bottom: 2vh;
+}
+.validation__cancelButton {
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 40vw;
+}

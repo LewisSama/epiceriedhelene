@@ -24,5 +24,16 @@
             <td class="cart__table__td">x,50€</td>
         </tr>
     {% endfor %}
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="cart__table__td">Total</td>
+            <td class="cart__table__td">15,50€</td>
+        </tr>
     </table>
+
+    <button type="button" class="cart__cancelButton">retour</button>
+    <form method="POST" action="">
+        <button type="submit" class="cart__validButton">Je valide </br>ma commande</button>
+    </form>
 {% endblock %}

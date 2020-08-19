@@ -1,15 +1,37 @@
+
 .cart__table {
     text-align: center;
-    width: 100%;
+    width: 95%;
     border-collapse: collapse;
     margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cart__table__td {
     border: 1px solid black;
     margin: 0;
+    height: 8vh;
 }
 
 .cart__table__th {
 
+}
+thead {
+    margin-bottom: 2vh;
+}
+tr{
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.cart__validButton {
+    background-color: darkseagreen;
+    margin-top: 5vh;
+    position: absolute;
+    right: 5vw;
+}
+.cart__cancelButton {
+    margin-top: 7vh;
+    position: absolute;
+    left: 8vw;
 }
