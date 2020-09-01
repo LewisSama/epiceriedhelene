@@ -33,7 +33,7 @@
     </table>
 
     <button type="button" class="cart__cancelButton">retour</button>
-    <form method="POST" action="">
+    <form method="POST" action="{{ path('validation') }}">
         <button type="submit" class="cart__validButton">Je valide </br>ma commande</button>
     </form>
 {% endblock %}

@@ -9,12 +9,12 @@ use Symfony\Component\Routing\Annotation\Route;
 class ValidationController extends AbstractController
 {
     /**
-     * @Route("/confirmation")
+     * @Route("/validation", name="validation")
      * @return Response
      */
     public function index(){
 
-        return $this->render('confirmation/index.html.twig');
+        return $this->render('validation/index.html.twig');
 
     }
 }

@@ -8,15 +8,15 @@
     <img class="mobile__home__logo" src="images/logo.jpg" alt="Il est écrit l'épicerie d'Hélène avec un panier en osier contenant une bouteille en verre et des produits en vracs.">
 
     <div class="home__menus">
-        <p class="home__menu"><a href="{{ path('shop_index') }}">Je m'inscris pour commander</a></p>
+        <p class="home__menu">Je m'inscris pour commander</p>
         <p class="home__menu">Je me connecte pour commander</p>
-        <p class="home__menu">Je veux juste voir les produits</p>
+        <p class="home__menu"><a href="{{ path('shop_index') }}">Je veux juste voir les produits</a></p>
     </div>
-
-    <p class="home_moreInfo">Plus d'information</p>
-    <img src="images/down-arrow.svg" alt="flèche indiquant le bas" class="home__downArrow">
-
-    <h2 class="home__infoBout__Titre">Infos boutique</h2>
+    <a href="#infos">
+        <p class="home_moreInfo">Plus d'information</p>
+        <img src="images/down-arrow.svg" alt="flèche indiquant le bas" class="home__downArrow">
+    </a>
+    <h2 id="infos" class="home__infoBout__Titre">Infos boutique</h2>
     <div class="home__infoBout__text">
         <p>Horaires d'ouverture:</p>
         <p>Le lundi, mercredi, vendredi:</p>

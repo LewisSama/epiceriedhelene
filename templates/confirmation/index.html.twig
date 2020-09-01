@@ -11,6 +11,8 @@
     <section class="confirmation__card">
         <h2>Votre commande a bien été validée</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius nisi ac elit posuere facilisis. Aliquam pretium, justo vitae porttitor blandit </p>
-        <button class="confirmation__validButton">Retour à l'accueil</button>
+        <form method="post" action="{{ path('index') }}">
+            <button class="confirmation__validButton">Retour à l'accueil</button>
+        </form>
     </section>
 {% endblock %}

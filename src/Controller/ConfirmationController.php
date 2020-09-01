@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ConfirmationController extends AbstractController
 {
     /**
-     * @Route("/validation")
+     * @Route("/confirmation", name="confirmation"))
      * @return Response
      */
     public function index(){
